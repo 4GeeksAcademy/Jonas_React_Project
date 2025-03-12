@@ -17,9 +17,6 @@ import Bottom from './components/Bottom';
 const App = () => {
 return (
   <div>
-    <div>
-      <h1>¡La app está funcionando!</h1>
-    </div>
     <Navbar/>
     <Home/>
     <Cards/>

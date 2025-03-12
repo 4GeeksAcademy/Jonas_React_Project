@@ -11,3 +11,21 @@ body {
   div {
     margin: 20px;
   }
+
+  .bg-dark-purple {
+    background-color: #4b0082 !important; /* Morado oscuro */
+  }
+
+  .bg-light-purple {
+    color: #333;
+    background-color: #d8b6ff; /* Color lila claro */
+    min-height: 40%; /* Para que ocupe toda la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .text-dark-purple {
+    color: #4b0082; /* Morado oscuro */
+  }
