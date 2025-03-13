@@ -1,133 +1,74 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Cards = () => {
   return (
-    <div className="container mt-5">
-      <div className="row justify-content-center g-1">
-        {/* Card 1 */}
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">
-          <div className="card" style={{ minHeight: "25rem", maxWidth: "100%" }}>
-            {/* Card Image */}
-            <img
-              src="https://via.placeholder.com/500x325"
-              className="card-img-top"
-              alt="Card image"
-              style={{
-                height: "auto",
-                objectFit: "cover",
-                width: "100%",
-              }}
-            />
-            <div className="card-body">
-              {/* Card Title */}
-              <h5 className="card-title">Card 1</h5>
-              {/* Card Description */}
-              <p className="card-text">
-                This is a short description of the card. It has around 15-16 words.
-              </p>
-            </div>
-            {/* Button */}
-            <div className="card-footer text-center">
-              <a href="#" className="btn btn-primary" style={{ padding: "10px 20px" }}>
-                Find Out More!
-              </a>
-            </div>
-          </div>
-        </div>
+    
+    <div className="container-fluid d-flex row justify-content-between m-0 p-0">
 
-        {/* Card 2 */}
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">
-          <div className="card" style={{ minHeight: "25rem", maxWidth: "100%" }}>
-            {/* Card Image */}
-            <img
-              src="https://via.placeholder.com/500x325"
-              className="card-img-top"
-              alt="Card image"
-              style={{
-                height: "auto",
-                objectFit: "cover",
-                width: "100%",
-              }}
-            />
-            <div className="card-body">
-              {/* Card Title */}
-              <h5 className="card-title">Card 2</h5>
-              {/* Card Description */}
-              <p className="card-text">
-                This is a short description of the card. It has around 15-16 words.
-              </p>
-            </div>
-            {/* Button */}
-            <div className="card-footer text-center">
-              <a href="#" className="btn btn-primary" style={{ padding: "10px 20px" }}>
-                Find Out More!
-              </a>
-            </div>
+      <div className="card d-flex p-0" style={{ width: "20%" }} >
+        <img src="https://picsum.photos/500/325?random=1" className="card-img">
+          </img>
+          
+          <div class="card-body text-center d-flex flex-column align-items-center">
+           <h5 class="card-title fw-bold ">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
-        </div>
+          <hr className="w-100 m-0 p-0" />
+          <div className="card-body d-flex justify-content-center">
+            
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+      </div>  
+      
+      <div className="card d-flex p-0" style={{ width: "20%" }} >
+        <img src="https://picsum.photos/500/325?random=1" className="card-img">
+          </img>
+          
+          <div class="card-body text-center d-flex flex-column align-items-center">
+           <h5 class="card-title fw-bold ">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <hr className="w-100 m-0 p-0" />
+          <div className="card-body d-flex justify-content-center">
+            
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+      </div>  
+      
+      <div className="card d-flex p-0" style={{ width: "20%" }} >
+        <img src="https://picsum.photos/500/325?random=1" className="card-img">
+          </img>
+          
+          <div class="card-body text-center d-flex flex-column align-items-center">
+           <h5 class="card-title fw-bold ">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <hr className="w-100 m-0 p-0" />
+          <div className="card-body d-flex justify-content-center">
+            
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+      </div>  
+      
+      <div className="card d-flex p-0" style={{ width: "20%" }} >
+        <img src="https://picsum.photos/500/325?random=1" className="card-img">
+          </img>
+          
+          <div class="card-body text-center d-flex flex-column align-items-center">
+           <h5 class="card-title fw-bold ">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <hr className="w-100 m-0 p-0" />
+          <div className="card-body d-flex justify-content-center">
+            
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+      </div>  
+      
 
-        {/* Card 3 */}
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">
-          <div className="card" style={{ minHeight: "25rem", maxWidth: "100%" }}>
-            {/* Card Image */}
-            <img
-              src="https://via.placeholder.com/500x325"
-              className="card-img-top"
-              alt="Card image"
-              style={{
-                height: "auto",
-                objectFit: "cover",
-                width: "100%",
-              }}
-            />
-            <div className="card-body">
-              {/* Card Title */}
-              <h5 className="card-title">Card 3</h5>
-              {/* Card Description */}
-              <p className="card-text">
-                This is a short description of the card. It has around 15-16 words.
-              </p>
-            </div>
-            {/* Button */}
-            <div className="card-footer text-center">
-              <a href="#" className="btn btn-primary" style={{ padding: "10px 20px" }}>
-                Find Out More!
-              </a>
-            </div>
-          </div>
-        </div>
 
-        {/* Card 4 */}
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">
-          <div className="card" style={{ minHeight: "25rem", maxWidth: "100%" }}>
-            {/* Card Image */}
-            <img
-              src="https://via.placeholder.com/500x325"
-              className="card-img-top"
-              alt="Card image"
-              style={{
-                height: "auto",
-                objectFit: "cover",
-                width: "100%",
-              }}
-            />
-            <div className="card-body">
-              {/* Card Title */}
-              <h5 className="card-title">Card 4</h5>
-              {/* Card Description */}
-              <p className="card-text">
-                This is a short description of the card. It has around 15-16 words.
-              </p>
-            </div>
-            {/* Button */}
-            <div className="card-footer text-center">
-              <a href="#" className="btn btn-primary" style={{ padding: "10px 20px" }}>
-                Find Out More!
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+        
     </div>
   );
 };
