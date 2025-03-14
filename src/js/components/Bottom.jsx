@@ -2,8 +2,8 @@ import React from 'react';
 
 const Bottom = () => {
   return (
-    <div style={{ backgroundColor: '#f8f9fa', padding: '10px' }}>
-      <h1>Bottom</h1>
+    <div className="navbar navbar-expand-lg bg-dark-purple justify-content-center m-0">
+      <h1 className="text-white fs-5">Copyright 2025 © www.getbootstrap.com </h1>
     </div>
   );
 };

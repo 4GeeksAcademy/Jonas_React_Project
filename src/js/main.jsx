@@ -16,7 +16,7 @@ import Bottom from './components/Bottom';
 
 const App = () => {
 return (
-  <div>
+  <div className='main-div'>
     <Navbar/>
     <Home/>
     <Cards/>
