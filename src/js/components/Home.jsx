@@ -3,10 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
   return (
-    <div className="home-container p-0 mt-0 mb-0 ">
+    <div className="home-container  bg-light-purple mt-0 mb-0">
       <div className="container-fluid col-12 d-flex flex-grow-0 flex-column align-items-start bg-light-purple text-white p-5 text-start">
-        <h1>Welcome to my first React project</h1>
-        <p className="lead text-dark-purple">
+        <h1 className="text-dark-tittle fw-bold">Welcome to my first React project !</h1>
+        <p className="lead text-dark-tittle">
           This is a simple landing page built with React, Bootstrap & CSS.
         </p>
         <div className="d-flex justify-content-start m-0 mt-2">

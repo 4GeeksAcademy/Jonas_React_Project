@@ -1,4 +1,4 @@
-*{
+{
   border: 1px red dashed;
 }
 
@@ -8,6 +8,11 @@ body {
     padding: 0;
   }
   
+.home-container {
+  height: 20rem;
+  
+}
+
   h1 {
     color: #333;
   }
@@ -17,30 +22,25 @@ body {
   }
 
   .bg-dark-purple {
-    background-color: #4b0082 !important; /* Morado oscuro */
+    background-color: #53505c !important; 
+    color: white;
   }
 
   .bg-light-purple {
     color: #333;
-    background-color: #d8b6ff; /* Color lila claro */
-    min-height: 40%; /* Para que ocupe toda la pantalla */
+    background-color: #eee3fc; 
+    min-height: 40%; 
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
 
-  .text-dark-purple {
-    color: #4b0082; /* Morado oscuro */
-  }
-
-
     .cards-container {
       display: flex;
       flex-wrap: wrap;
-      align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
-      justify-content: space-between; /* Asegura que las cards inicien desde la izquierda */
-      width: 100%;
+      align-items: flex-start; 
+      justify-content: space-between; 
       margin: 0;
       padding: 0;
     }
@@ -50,4 +50,11 @@ body {
     width: 20%;
     margin: 0;
     padding: 0;
+  }
+  .text-dark-tittle {
+    color: #686e6c;
+  }
+
+  .custom-bottom {
+    height: 120px; 
   }

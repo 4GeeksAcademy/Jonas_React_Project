@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark-purple navbar-dark bg-dark px-3">
+    <nav className="navbar navbar-expand-lg bg-dark-purple navbar-dark bg-dark py-1 px-4">
       <a className="navbar-brand" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
       target="_blank" rel="noopener noreferrer"
       >
@@ -12,7 +12,7 @@ const Navbar = () => {
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <div className="collapse navbar-collapse justify-content-end" id="navbarNav" >
         <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link active" href="https://getbootstrap.com/"
